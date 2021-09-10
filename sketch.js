@@ -86,7 +86,7 @@ function draw() {
     }
     knife.debug = false;
     monsterGroup.velocityX = -(2 + score / 4);
-    fruitGroup.velocityX = -(8 + (score / 10));
+    fruitGroup.velocityX = -(8 + score / 10);
   }
 
   
