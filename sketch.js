@@ -18,7 +18,7 @@ function preload(){
 
   //load sound here
   gameOverSound = loadSound("gameover.mp3")
-  knifeSwoosh = loadSound("knifeswoosh.mp3")
+  knifeSwoosh = loadSound("knifeSwoosh.mp3")
 }
 
 
@@ -32,7 +32,7 @@ function setup() {
    knife.scale=0.7
   
   //set collider for sword
-  knife.setCollider("rectangle",0,0,70,150);
+  knife.setCollider("rectangle",0,-30,80,80);
 
   // Score variables and Groups
   score=0;
